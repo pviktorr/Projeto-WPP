@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+    <title>Whatsapp</title>
+
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+           
+            <div class="search-bar">
+                <input id="numero" placeholder="Digite um número">
+                <button id="pesquisar">PESQUISAR</button>
+            </div>
+            <div id="galeria"></div>
+        </aside>
+        <main class="chat-container">
+            <header class="chat-header">
+                <img src="./img/perfil2.png" alt="Contato" class="chat-avatar">
+                <span class="chat-nome">Nome do Contato</span>
+                <div class="icons">
+                    <img src="./img/chamada.png" class="icon">
+                    <img src="./img/video.png" class="icon">
+                </div>
+            </header>
+            <div id="chat"></div>
+            <div class="input-container">
+                <input id="mensagem" type="text" placeholder="Digite uma mensagem">
+                <button id="enviar">➤</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
